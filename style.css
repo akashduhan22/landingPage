@@ -1,0 +1,314 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    display: flex;
+    justify-content: space-evenly ;
+    flex-wrap: wrap;
+    border: 2px solid;
+    /* height: 50px; */
+    align-items: center;
+    background: linear-gradient(to right, orange 10%,red 50%,rgb(80, 40, 74) 75%);
+}
+
+.icon{
+    margin: 0px 10px;
+    color: white;
+    /* border: 2px solid white; */
+    outline: 2px solid white;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+.link{
+    text-decoration: none;
+    color: white;
+    margin: 0px 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.request{
+    margin: 10px 0px;
+}
+
+.request a button{
+    background-color: transparent;
+    padding: 8px;
+    border: 2px solid white;
+    border-radius: 20px;
+    color: white;
+    cursor: pointer;
+}
+/* header ends */
+
+/* Navigation starts */
+.navigation{
+    border: 2px solid;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 10px 0px;
+}
+
+.logo{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    gap: 10px;
+    margin-left: 30px;
+}
+
+span{
+    color: rgb(192, 53, 53);
+}
+
+.logo-icon{
+    font-size: 30px;
+    box-shadow: drop;
+    color: rgb(192, 53, 53);
+}
+
+.nav .navbar ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    gap: 20px;
+    cursor: pointer;    
+}
+
+ul li{
+    padding: 10px;
+}
+ul li:hover{
+    background-color: yellow;
+    border-radius: 10px;
+    transform: scale(1.1);
+}
+
+.search{
+    margin-right: 50px;
+    font-size: 30px;
+}
+
+/* navbar ends */
+
+
+/* main starts */
+.main{
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* height: 60vh; */
+    width: 100vw;
+    /* border: 2px solid blue; */
+    padding-top: 100px;
+    padding-left: 150px;
+    background-image: url('./discussion.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.line1{
+    font-size: 30px;
+    letter-spacing: 3px;
+    word-spacing: 2px;
+    color: rgb(43, 41, 41);
+    font-weight: bolder;
+    /* text-shadow: 10px -20px white; */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.line2{
+    font-size: 40px;
+    letter-spacing: 3px;
+    word-spacing: 2px;
+    color: rgb(12, 12, 11);
+    font-weight: bold;
+    margin: 8px 0px;
+    /* text-shadow: 30px -10px white; */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.line3{     
+    /* border: 2px solid red; */
+    width: 80%;
+    font-size: 20px;
+    letter-spacing: 3px;
+    word-spacing: 2px;
+    color: darkblue;
+    font-weight: bold;
+    margin: 8px 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.button1{
+    background: linear-gradient(to right, orange 10%,red 50%,rgb(80, 40, 74) 75%);
+    padding: 10px;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 20px;
+    margin: 0px 10px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.button2{
+    padding: 10px;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 20px;
+    margin: 0px 10px;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+/* main ends */
+
+/* skills starts */
+
+.skills{
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+padding: 20px;
+background: linear-gradient(to right, orange 10%,red 50%,rgb(80, 40, 74) 75%);
+}
+
+.box{
+    width: 400px;
+    margin: 10px;
+}
+
+.head{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 10px;
+}
+
+.subhead{
+    font-size: 15px;
+    font-weight: 200;
+    font-family: Georgia, 'Times New Roman', Times, serif;    
+}
+
+/* skills ends */
+
+/* about starts */
+
+.about{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 100px;
+    background-image: url('./worldmap.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.content{
+    width: 50%;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center  ;
+}
+
+.heading{
+    font-size: 35px;
+    font-weight: bolder;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 8px;
+}
+
+.line{
+    width: 150px;
+    height: 4px;
+    border-radius: 20px;
+    background: linear-gradient(to right, orange 10%,red 50%,rgb(80, 40, 74) 75%);
+    margin: 2px;
+}
+
+.subheading{
+    font-size: 18px;
+    font-style: italic  ;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 5px;
+}
+
+.para{
+    font-size: 14px;
+    line-height: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 5px;
+}
+
+.mainimg{
+    height: 400px;
+    width: 400px;
+}
+
+/* service starts */
+
+.boxes{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.headinglast{
+    padding-left: 80px;
+    font-size: 35px;
+    font-weight: bolder;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 8px;
+}
+
+.lastline{
+    margin-left: 90px;
+    margin-bottom: 10px;
+}
+
+.lasttext{
+    font-size: 20px;
+    position: relative;
+    top: -20px;
+    left: 40px;
+    padding: 5px;
+    /* border: 2px solid black; */
+    border-top-right-radius: 10px;
+    border-bottom-right-radius:10px ;
+    width: 200px;
+    background-color: white;
+}
+
+.icons{
+    background: linear-gradient(to right, orange 10%,red 50%,rgb(80, 40, 74) 75%);
+    padding: 5px;
+    border-radius: 50%;
+}
+
+.lastimg{
+    height: 250px;
+    width: 250px;
+    border-radius: 10px;
+}
+
+/* service ends */
